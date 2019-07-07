@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="8073" started-at="2019-07-07T14:45:16Z" finished-at="2019-07-07T14:45:24Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@13c78c0b]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="8073" started-at="2019-07-07T14:45:16Z" finished-at="2019-07-07T14:45:24Z">
+      <class name="Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@13c78c0b]" name="setUpClass" is-config="true" duration-ms="92" started-at="2019-07-07T14:45:16Z" finished-at="2019-07-07T14:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@13c78c0b]" name="runScenario" duration-ms="2729" started-at="2019-07-07T14:45:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-07-07T14:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify endpoint is returning one random fact"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@13c78c0b]" name="runScenario" duration-ms="1504" started-at="2019-07-07T14:45:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-07-07T14:45:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify endpoint is returning desired number of facts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@13c78c0b]" name="runScenario" duration-ms="1215" started-at="2019-07-07T14:45:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-07-07T14:45:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify endpoint is returning correct animal facts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@13c78c0b]" name="runScenario" duration-ms="1206" started-at="2019-07-07T14:45:22Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-07-07T14:45:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify no facts are returned"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@13c78c0b]" name="runScenario" duration-ms="1209" started-at="2019-07-07T14:45:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-07-07T14:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify no facts are returned for invalid parameters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@13c78c0b]" name="tearDownClass" is-config="true" duration-ms="84" started-at="2019-07-07T14:45:24Z" finished-at="2019-07-07T14:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
